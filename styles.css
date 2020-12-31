@@ -1,33 +1,52 @@
 body {
   /* المطلوب الأول هنا */
+  font-family:"cairo";
+  font-style: normal;
+  font-weight:300;
+  font-display: swap;
   text-align: center;
   background-size: cover;
+  background-image:url(./img/KuwaitCodesWallpaper.png)
 }
 
 /* المطلوب الثاني هنا */
-nav {
+nav{ 
+  display: flex;
+  justify-content:space-evenly;
 }
-.nav-elements {
+.nav-elements { 
+  
+
 }
 
 .card {
   /* المطلوب الثالث هنا */
   width: 400px;
   height: 500px;
-  background-color: white;
+  background-color: rgb(89, 0, 255);
+  box-shadow: 5px 5px 5px rgba(68,68,68,0.6);
+  border-radius: 12px;
+
 }
+
 
 img {
   /* المطلوب الرابع هنا */
   width: 120px;
   height: 120px;
   margin-top: 20px;
+  box-shadow: crimson;
+  border-radius: 50%;
 }
 
-.hobbies {
+.hobbies{
   /* المطلوب السادس هنا */
-}
+  display: flex;
+  transition: all 2s ease-in-out;
 
+}
+.hobbies:hover{ box-shadow: 5px 5px 5px rgba(68, 68, 68, 0);
+}
 .center {
   margin: auto;
 }
